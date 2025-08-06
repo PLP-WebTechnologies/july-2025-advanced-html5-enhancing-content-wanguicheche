@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Enhanced HTML5 Freelancer Inquiry Form</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1><b>Helping mission-driven businesses eliminate repetitive tasks and manual operations.</h1>
+      </header>
+
+  <main>
+    <!-- SECTION 1: Media (Intro Video Section) -->
+    <section>
+                <figure>
+              <figcaption>Hi!:</figcaption>
+              <video width="320" height="240" controls>
+                <source src="C:\Users\HP\SEE_Academy\Web Development\PLP-EnhancedForm -Alice Mwangi\Intro.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+            </figure>
+          </section>
+    <hr>
+
+    <!-- SECTION 2: Tiered Packages Table -->
+    <section>
+      <h2>Service Tiers</h2>
+      <br>
+      <table border="1" cellpadding="6">
+        <thead>
+          <tr>
+            <th>Tier</th>
+            <th>Price</th>
+            <th>Features</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Foundation</td>
+            <td>$1,500</td>
+            <td>Basic Asana setup, SOPs & real-time dashboard.</td>
+          </tr>
+          <tr>
+            <td>Acceleration</td>
+            <td>$2,000</td>
+            <td>Multi-department workflows, task automation (Zapier).</td>
+          </tr>
+          <tr>
+            <td>Domination</td>
+            <td>2,500</td>
+            <td>Custom Asana API integration for cross-platform automation.</td>
+          </tr>
+        </tbody>
+      </table>
+      <br>
+    </section>
+    <hr>
+
+    <!-- SECTION 3: Inquiry Form -->
+    <section>
+      <h2>Client Inquiry Form</h2>
+      <br>
+      <form action="#" method="post">
+        <fieldset>
+          <legend>Submit a Project Request</legend>
+
+          <label for="fullname">Full Name:</label><br>
+          <input type="text" id="fullname" name="fullname" required placeholder="Jane Doe" autocomplete="name"><br><br>
+
+          <label for="email">Email:</label><br>
+          <input type="email" id="email" name="email" required placeholder="jane@example.com" autocomplete="email"><br><br>
+
+          <label for="service">Select a Service Tier:</label><br>
+          <select id="service" name="service" required>
+            <option value="foundation">Foundation</option>
+            <option value="acceleration">Acceleration</option>
+            <option value="domination">Domination</option>
+          </select><br><br>
+
+          <label for="team-size">Approximate Team Size:</label><br>
+          <input type="number" id="team-size" name="team-size" min="1" max="100" step="1" required><br><br>
+
+          <label for="timeline">Preferred Start Date:</label><br>
+          <input type="date" id="timeline" name="timeline" required><br><br>
+
+          <label for="brief">Upload Project Brief (PDF):</label><br>
+          <input type="file" id="brief" name="brief" accept="application/pdf"><br><br>
+
+          <label for="project-desc">Describe Your Project:</label><br>
+          <textarea id="project-desc" name="project-desc" rows="5" placeholder="Tell me about your goals, tools, and current challenges..." required></textarea><br><br>
+
+          <label for="hire-platform">Hire Platform:</label><br>
+          <input type="text" id="hire-platform" value="Upwork (Work Diary & Payments Only)" readonly><br>
+          <small>All contracts, time tracking, and payments will be securely handled via Upwork.</small><br><br>
+
+          <label for="inquiry-id">Inquiry ID:</label><br>
+          <input type="text" id="inquiry-id" value="#REQ2025-08-001" readonly><br><br>
+
+          <input type="checkbox" id="terms" name="terms" required>
+          <label for="terms">I agree to the terms and conditions.</label><br><br>
+
+          <input type="submit" value="Send Inquiry">
+        </fieldset>
+      </form>
+      <br>
+    </section>
+  </main>
+
+  <footer>
+    <br>
+    <p>&copy; 2025 Wangui Cheche. All rights reserved.</p>
+    <br>
+  </footer>
+</body>
+</html>
